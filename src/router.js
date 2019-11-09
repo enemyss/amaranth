@@ -13,14 +13,13 @@ export default new Router({
   linkExactActiveClass: 'active',
   routes: [
     {
-      path: '/',
+      path: '/amaranth/',
       name: 'index',
       components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
-      },
-      alias: ["/about", "/route3", "/route4"]
+      }
     },
     // {
     //   path: '/login',
