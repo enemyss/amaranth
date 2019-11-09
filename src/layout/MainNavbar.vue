@@ -7,7 +7,7 @@
     menu-classes="ml-auto"
   >
     <template slot-scope="{ toggle, isToggled }">
-      <router-link class="navbar-brand" to="/amaranth" v-scroll-to="'#app'"  >
+      <router-link class="navbar-brand" to="/amaranth/" v-scroll-to="'#app'"  >
         Home
       </router-link>
     </template>
