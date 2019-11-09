@@ -23,7 +23,7 @@
         </h5>
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto">
-            <h4 class="title text-center">My Portfolio</h4>
+            <h4 class="title text-center">Types</h4>
           </div>
           <tabs
             pills
@@ -32,7 +32,7 @@
             tab-nav-classes="nav-pills-just-icons"
             type="primary"
           >
-            <tab-pane title="Profile">
+            <tab-pane title="Products">
               <i slot="label" class="now-ui-icons design_image"></i>
 
               <div class="col-md-10 ml-auto mr-auto">

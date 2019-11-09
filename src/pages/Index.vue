@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-about-us">
+    <div class="section section-about-us" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="separator separator-primary"></div>
-        <div class="section-story-overview" id="about">
+        <div class="section-story-overview">
           <div class="row">
             <div class="col-md-6">
               <div
