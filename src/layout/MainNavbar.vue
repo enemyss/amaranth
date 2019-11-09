@@ -7,7 +7,7 @@
     menu-classes="ml-auto"
   >
     <template slot-scope="{ toggle, isToggled }">
-      <router-link class="navbar-brand" to="/" v-scroll-to="'#app'"  >
+      <router-link class="navbar-brand" to="/amaranth" v-scroll-to="'#app'"  >
         Home
       </router-link>
     </template>
@@ -15,8 +15,8 @@
       <li class="nav-item">
         <a
           class="nav-link"
-          href="#about"
-          v-scroll-to="'#about'"  
+          href="/amaranth/#about"
+           
         >
           <p>About</p>
         </a>
@@ -24,13 +24,17 @@
     <li class="nav-item">
         <a
           class="nav-link"
-          href="#"
-          v-scroll-to="'#contact-us'"
+          href="/amaranth/#contact-us"
+          
         >
           <p>Contact Us</p>
         </a>
       </li>
-
+      <li class="nav-item">
+        <router-link class="navbar-brand nav-link" to="/amaranth/products" >
+          Products
+        </router-link>        
+      </li>
       <li class="nav-item">
         <a
           class="nav-link"
