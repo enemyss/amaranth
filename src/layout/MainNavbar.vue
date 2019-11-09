@@ -13,22 +13,11 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <a
-          class="nav-link"
-          href="/amaranth/#about"
-           
-        >
-          <p>About</p>
-        </a>
+        <router-link class="nav-link" to="/amaranth/#about" v-scroll-to="'#about'">About</router-link>
       </li>
+      
     <li class="nav-item">
-        <a
-          class="nav-link"
-          href="/amaranth/#contact-us"
-          
-        >
-          <p>Contact Us</p>
-        </a>
+        <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
       </li>
       <li class="nav-item">
         <router-link class="navbar-brand nav-link" to="/amaranth/products" >
