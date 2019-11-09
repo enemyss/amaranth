@@ -1,111 +1,125 @@
 <template>
   <div>
-    <div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image:url('img/header.jpg')"
+        style="background-image: url('img/bg6.jpg')"
       >
       </parallax>
-      <div class="container">
-        <div class="content-center brand">
-          <img class="n-logo" src="img/now-logo.png" alt="" />
-          <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+      <div class="content-center">
+        <div class="container">
+          <h1 class="title">Amaranth Baltic</h1>
         </div>
-        <h6 class="category category-absolute">
-          Designed by
-          <a href="http://invisionapp.com/" target="_blank">
-            <img src="img/invision-white-slim.png" class="invision-logo" /> </a
-          >. Coded by
-          <a href="https://www.creative-tim.com" target="_blank">
-            <img
-              src="img/creative-tim-white-slim2.png"
-              class="creative-tim-logo"
-            /> </a
-          >.
-        </h6>
       </div>
     </div>
-    <div class="main">
-      <div class="section section-images">
-        <div class="container">
+    <div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">Who we are?</h2>
+            <h5 class="description">
+              According to the National Oceanic and Atmospheric Administration,
+              Ted, Scambos, NSIDClead scentist, puts the potentially record low
+              maximum sea ice extent tihs year down to low ice extent in the
+              Pacific and a late drop in ice extent in the Barents Sea.
+            </h5>
+          </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section-story-overview" id="about">
           <div class="row">
-            <div class="col-md-12">
-              <div class="hero-images-container">
-                <img src="img/hero-image-1.png" alt="" />
+            <div class="col-md-6">
+              <div
+                class="image-container image-left"
+                style="background-image: url('img/about1.jpg')"
+              >
+                <!-- First image on the left side -->
+                <p class="blockquote blockquote-primary">
+                  "Over the span of the satellite record, Arctic sea ice has
+                  been declining significantly, while sea ice in the
+                  Antarctichas increased very slightly"
+                  <br />
+                  <br />
+                  <small>-NOAA</small>
+                </p>
               </div>
-              <div class="hero-images-container-1">
-                <img src="img/hero-image-2.png" alt="" />
-              </div>
-              <div class="hero-images-container-2">
-                <img src="img/hero-image-3.png" alt="" />
-              </div>
+              <!-- Second image on the left side of the article -->
+              <div
+                class="image-container"
+                style="background-image: url('img/about3.jpg')"
+              ></div>
+            </div>
+            <div class="col-md-5">
+              <!-- First image on the right side, above the article -->
+              <div
+                class="image-container image-right"
+                style="background-image: url('img/about2.jpg')"
+              ></div>
+              <h3>
+                So what does the new record for the lowest level of winter ice
+                actually mean
+              </h3>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
+              <p>
+                For a start, it does not automatically follow that a record
+                amount of ice will melt this summer. More important for
+                determining the size of the annual thaw is the state of the
+                weather as the midnight sun approaches and temperatures rise.
+                But over the more than 30 years of satellite records, scientists
+                have observed a clear pattern of decline, decade-by-decade.
+              </p>
+              <p>
+                The Arctic Ocean freezes every winter and much of the sea-ice
+                then thaws every summer, and that process will continue whatever
+                happens with climate change. Even if the Arctic continues to be
+                one of the fastest-warming regions of the world, it will always
+                be plunged into bitterly cold polar dark every winter. And
+                year-by-year, for all kinds of natural reasons, there’s huge
+                variety of the state of the ice.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <basic-elements></basic-elements>
-    <navigation></navigation>
-    <tabs-section></tabs-section>
-    <progress-pagination></progress-pagination>
-    <notifications></notifications>
-    <typography></typography>
-    <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
-    <div class="section">
-      <div class="container text-center">
-        <div class="row justify-content-md-center">
-          <div class="col-md-12 col-lg-8">
-            <h2 class="title">Completed with examples</h2>
-            <h5 class="description">
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              More importantly, looking at them will give you a picture of what
-              you can built with this powerful Bootstrap 4 ui kit.
-            </h5>
+    <div class="section section-contact-us text-center" id="contact-us">
+      <div class="container">
+        <h2 class="title">Want to contact us?</h2>
+        <p class="description">Description test test test.</p>
+        <div class="row">
+          <div class="col-lg-6 text-center ml-auto mr-auto col-md-8">
+            <p>Contact Information</p>
           </div>
         </div>
       </div>
     </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
-    <download-section></download-section>
   </div>
 </template>
 <script>
-import { Parallax } from '@/components';
-import BasicElements from './components/BasicElementsSection';
-import Navigation from './components/Navigation';
-import TabsSection from './components/Tabs';
-import ProgressPagination from './components/ProgressPagination';
-import Notifications from './components/Notifications';
-import Typography from './components/Typography';
-import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
-import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
-import DownloadSection from './components/DownloadSection';
-
+import { Button, FormGroupInput } from '@/components';
 export default {
-  name: 'index',
-  bodyClass: 'index-page',
+  name: 'landing',
+  bodyClass: 'landing-page',
   components: {
-    Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    DownloadSection
+    [Button.name]: Button,
+    [FormGroupInput.name]: FormGroupInput
+  },
+  data() {
+    return {
+      form: {
+        firstName: '',
+        email: '',
+        message: ''
+      }
+    };
   }
 };
 </script>

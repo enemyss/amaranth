@@ -22,6 +22,12 @@ import NowUiKit from './plugins/now-ui-kit';
 
 Vue.config.productionTip = false;
 
+var VueScrollTo = require('vue-scrollto');
+ 
+Vue.use(VueScrollTo, {
+  duration: 800
+})
+
 Vue.use(NowUiKit);
 
 new Vue({
