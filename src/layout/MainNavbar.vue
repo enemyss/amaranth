@@ -8,7 +8,7 @@
   >
     <template slot-scope="{ toggle, isToggled }">
       <router-link class="navbar-brand" to="/amaranth/" v-scroll-to="'#app'"  >
-        Home
+        <img class="nav-logo" src="/img/fake-logo.png" />
       </router-link>
     </template>
     <template slot="navbar-menu">
@@ -19,11 +19,15 @@
     <li class="nav-item">
         <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <router-link class="navbar-brand nav-link" to="/amaranth/products" >
           Products
         </router-link>        
-      </li>
+      </li> -->
+      <drop-down tag="li" class="nav-item" title="Production">
+       <a class="dropdown-item" href="#">Products</a>
+       <a class="dropdown-item" href="#">Production Department</a>
+      </drop-down>      
       <li class="nav-item">
         <a
           class="nav-link"

@@ -1,0 +1,59 @@
+.nav-logo {
+    height: 50px;
+}
+
+.amaranth-list {
+    li {
+        position: relative;
+        margin-bottom: 5px;
+        padding-left: 15px;
+
+        &::before {
+            position: absolute;
+            top: -1px;
+            left: 0px;
+            content: "›";
+            color: #f96332;
+            font-weight: bold;
+        }
+    }
+}
+
+.secondary-title {
+    color: #a05807;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/img/parallax1.jpg");
+  
+    /* Set a specific height */
+    //height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #fff;
+
+    p {
+        font-weight: bold;
+    }
+}
+
+.card {
+    .card-img {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+.section-contact-information {
+    background-color: #f96332;
+
+    img {
+        width: 80%;
+    }
+}

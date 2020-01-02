@@ -3,7 +3,7 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg6.jpg')"
+        style="background-image: url('/img/bg6.jpg')"
       >
       </parallax>
       <div class="content-center">
@@ -15,81 +15,110 @@
     <div class="section section-about-us" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Who we are?</h2>
-            <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
-            </h5>
+          <div class="col-md-5">
+            <h2><strong>About Us</strong></h2>
+            <h5><strong>Amaranth Baltic is text text text text text text</strong></h5>
+            <p>We have a wide network of suppliers from all over the world and are continuously looking for new partners and possibilities.</p>
+            <h3><strong>Amaranth Baltic in short</strong></h3>
+            <ul class="list-unstyled amaranth-list">
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+              <li>Test test test test test test</li>
+            </ul>
           </div>
-        </div>
-        <div class="separator separator-primary"></div>
-        <div class="section-story-overview">
-          <div class="row">
-            <div class="col-md-6">
-              <div
-                class="image-container image-left"
-                style="background-image: url('img/about1.jpg')"
-              >
-                <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
-                  <br />
-                  <br />
-                  <small>-NOAA</small>
-                </p>
-              </div>
-              <!-- Second image on the left side of the article -->
-              <div
-                class="image-container"
-                style="background-image: url('img/about3.jpg')"
-              ></div>
-            </div>
-            <div class="col-md-5">
-              <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right"
-                style="background-image: url('img/about2.jpg')"
-              ></div>
-              <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
-              </h3>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
-              <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
-              </p>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p>
-            </div>
-          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="/img/spice-img1.jpg"/>  
+          </div>          
+          <div class="col-md-4">
+            <h2 class="secondary-title"><strong>Amaranth Baltic works in sectors within the food industry:</strong></h2>
+            <ul class="list-unstyled amaranth-list">
+              <li>Test test</li>
+              <li>Test test</li>
+              <li>Test test</li>
+              <li>Test test</li>
+            </ul>
+          </div>          
         </div>
       </div>
     </div>
+       <!-- <div class="page-header page-header-small">
+         <parallax class="page-header-image" style="background-image: url('https://demos.creative-tim.com/vue-now-ui-kit-pro/img/bg3.jpg')"></parallax>
+     </div> -->
+     <div class="parallax py-5">
+       <div class="container">
+         <div class="row">
+         <div class="col-lg-6 offset-lg-6">
+           <h1><strong>Baltic Food industry</strong></h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+               deserunt mollit anim id est laborum.
+            </p>
+           <br>
+           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+             laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto 
+             beatae vitae dicta sunt explicabo.
+          </p>
+         </div>
+         </div>
+       </div>
+     </div>
+     <div class="section">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-12">
+             <h2 class="text-center"><strong>Our Products</strong></h2>
+           </div>
+           <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="/img/login.jpg" class="card-img">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="col-md-4">
+              <div class="card mb-3">
+                <img src="/img/login.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>               
+             </div>
+             <div class="col-md-4">
+              <div class="card">
+                <img src="/img/login.jpg" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>               
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+        <!-- <div class="section"> 
+      <parallax
+        class="page-header-image"
+        style="background-image: url('/img/bg6.jpg')"
+      >
+      </parallax>
+  </div> -->
     <div class="section section-contact-us text-center" id="contact-us">
       <div class="container">
         <h2 class="title">Want to contact us?</h2>
@@ -101,10 +130,45 @@
         </div>
       </div>
     </div>
+    <div class="section section-contact-information">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Contact information</h3>
+            <p>
+              <strong>Title Title</strong>
+              <br>
+              Street 123, nr 5
+              <br>
+              Distrtict 99
+            </p>
+            <p>
+              Random title 321
+            </p>
+            <p>
+              Telephone: 22334455
+              <br>
+              Email: sales@amaranthbaltic.com
+            </p>
+          </div>
+          <div class="col-md-6 offset-md-2 d-flex">
+            <div class="row align-self-center">
+              <div class="col-md-6">
+                <img class="img-fluid" src="/img/dummy-stamp.png"/>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="/img/dummy-stamp.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
+
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
