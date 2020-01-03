@@ -1,5 +1,38 @@
 <template>
-  <navbar
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/amaranth/"><img class="nav-logo" :src="require('@/assets/img/fake-logo.png')"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <router-link class="nav-link" to="/amaranth/#about" v-scroll-to="'#about'">About</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <router-link class="dropdown-item" to="/amaranth/#products" v-scroll-to="'#products'">Products</router-link>
+                          <router-link class="dropdown-item" to="/amaranth/products" >
+                    Production Department
+                  </router-link> 
+            </div>
+          </li>
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+  <!-- <navbar
     position="fixed"
     type="primary"
     :transparent="transparent"
@@ -19,11 +52,11 @@
     <li class="nav-item">
         <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
       </li>
-      <!-- <li class="nav-item">
+      <li class="nav-item">
         <router-link class="navbar-brand nav-link" to="/amaranth/products" >
           Products
         </router-link>        
-      </li> -->
+      </li>
       <drop-down tag="li" class="nav-item" title="Production">
        <a class="dropdown-item" href="#">Products</a>
        <a class="dropdown-item" href="#">Production Department</a>
@@ -68,24 +101,17 @@
         </a>
       </li>
     </template>
-  </navbar>
+  </navbar> -->
 </template>
 
 <script>
-import { DropDown, NavbarToggleButton, Navbar, NavLink } from '@/components';
-import { Popover } from 'element-ui';
+
+import 'bootstrap';
 export default {
   name: 'main-navbar',
   props: {
     transparent: Boolean,
     colorOnScroll: Number
-  },
-  components: {
-    DropDown,
-    Navbar,
-    NavbarToggleButton,
-    NavLink,
-    [Popover.name]: Popover
   },
   methods: {
     scrollMeTo(refName) {
@@ -99,4 +125,3 @@ export default {
 };
 </script>
 
-<style scoped></style>

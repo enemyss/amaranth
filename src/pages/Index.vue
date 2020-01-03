@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <!-- <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('/img/bg6.jpg')"
+        :style="{ backgroundImage: 'url(' + require('@/assets/img/bg6.jpg') + ')' }"
       >
       </parallax>
       <div class="content-center">
@@ -11,7 +11,16 @@
           <h1 class="title">Amaranth Baltic</h1>
         </div>
       </div>
-    </div>
+    </div> -->
+     <div class="parallax py-5 parralax-header d-flex" :style="{ backgroundImage: 'url(' + require('@/assets/img/bg6.jpg') + ')' }">
+       <div class="container justify-content-center align-self-center">
+         <div class="row">
+         <div class="col-lg-12">
+           <h1 class="title text-center">Amaranth Baltic</h1>
+         </div>
+         </div>
+       </div>
+     </div>    
     <div class="section section-about-us" id="about">
       <div class="container">
         <div class="row">
@@ -31,7 +40,7 @@
             </ul>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid" src="/img/spice-img1.jpg"/>  
+            <img class="img-fluid" :src="require('@/assets/img/about2min.jpg')"/>
           </div>          
           <div class="col-md-4">
             <h2 class="secondary-title"><strong>Amaranth Baltic works in sectors within the food industry:</strong></h2>
@@ -48,7 +57,7 @@
        <!-- <div class="page-header page-header-small">
          <parallax class="page-header-image" style="background-image: url('https://demos.creative-tim.com/vue-now-ui-kit-pro/img/bg3.jpg')"></parallax>
      </div> -->
-     <div class="parallax py-5">
+     <div class="parallax py-5" :style="{ backgroundImage: 'url(' + require('@/assets/img/parallax1.jpg') + ')' }">
        <div class="container">
          <div class="row">
          <div class="col-lg-6 offset-lg-6">
@@ -69,7 +78,7 @@
          </div>
        </div>
      </div>
-     <div class="section">
+     <div class="section" id="products">
        <div class="container">
          <div class="row">
            <div class="col-md-12">
@@ -80,7 +89,7 @@
                 <div class="card mb-3">
                   <div class="row no-gutters">
                     <div class="col-md-4">
-                      <img src="/img/login.jpg" class="card-img">
+                      <img :src="require('@/assets/img/login1.jpg')" class="card-img">
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -93,7 +102,7 @@
              </div>
              <div class="col-md-4">
               <div class="card mb-3">
-                <img src="/img/login.jpg" class="card-img-top">
+                <img :src="require('@/assets/img/login.jpg')" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -102,7 +111,7 @@
              </div>
              <div class="col-md-4">
               <div class="card">
-                <img src="/img/login.jpg" class="card-img-top">
+                <img :src="require('@/assets/img/login.jpg')" class="card-img-top">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -154,10 +163,10 @@
           <div class="col-md-6 offset-md-2 d-flex">
             <div class="row align-self-center">
               <div class="col-md-6">
-                <img class="img-fluid" src="/img/dummy-stamp.png"/>
+                <img class="img-fluid" :src="require('@/assets/img/dummy-stamp.png')"/>
               </div>
               <div class="col-md-6">
-                <img class="img-fluid" src="/img/dummy-stamp.png"/>
+                <img class="img-fluid" :src="require('@/assets/img/dummy-stamp.png')"/>
               </div>
             </div>
           </div>
@@ -177,13 +186,7 @@ export default {
     [FormGroupInput.name]: FormGroupInput
   },
   data() {
-    return {
-      form: {
-        firstName: '',
-        email: '',
-        message: ''
-      }
-    };
+    return {};
   }
 };
 </script>
