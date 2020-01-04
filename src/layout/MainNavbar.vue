@@ -14,17 +14,16 @@
               <router-link class="nav-link" to="/amaranth/#about" v-scroll-to="'#about'">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
+              <router-link class="nav-link" to="/amaranth/#products" v-scroll-to="'#products'">Products</router-link>
             </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <router-link class="dropdown-item" to="/amaranth/#products" v-scroll-to="'#products'">Products</router-link>
-                          <router-link class="dropdown-item" to="/amaranth/products" >
-                    Production Department
-                  </router-link> 
-            </div>
-          </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/amaranth/production" >
+                Production
+              </router-link> 
+            </li>              
+            <li class="nav-item">
+              <router-link class="nav-link" to="/amaranth/#contact-us" v-scroll-to="'#contact-us'">Contact Us</router-link>
+            </li>          
           </ul>
           
         </div>

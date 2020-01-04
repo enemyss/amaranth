@@ -23,8 +23,8 @@ export default new Router({
       }
     },
     {
-      path: '/amaranth/products',
-      name: 'products',
+      path: '/amaranth/production',
+      name: 'production',
       components: { default: Products, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
