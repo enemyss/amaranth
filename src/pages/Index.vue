@@ -8,7 +8,7 @@
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title">Amaranth Baltic</h1>
+          <h1 class="title">Amaranth Baltic123</h1>
         </div>
       </div>
     </div> -->
@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-md-5">
             <h2><strong>About Us</strong></h2>
-            <h5><strong>Amaranth Baltic is</strong></h5>
+            <h5><strong>Amaranth Baltic is 123 asdadas</strong></h5>
             <p>We have a wide network of suppliers from all over the world and are continuously looking for new partners and possibilities.</p>
             <h3><strong>Amaranth Baltic in short</strong></h3>
             <ul class="list-unstyled amaranth-list">
