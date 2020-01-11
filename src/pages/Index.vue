@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-md-5">
             <h2><strong>About Us</strong></h2>
-            <h5><strong>Amaranth Baltic is text text text text text text</strong></h5>
+            <h5><strong>Amaranth Baltic is</strong></h5>
             <p>We have a wide network of suppliers from all over the world and are continuously looking for new partners and possibilities.</p>
             <h3><strong>Amaranth Baltic in short</strong></h3>
             <ul class="list-unstyled amaranth-list">
